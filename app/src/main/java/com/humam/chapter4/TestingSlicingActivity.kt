@@ -1,0 +1,11 @@
+package com.humam.chapter4
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class TestingSlicingActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_testing_slicing)
+    }
+}
