@@ -20,7 +20,7 @@
             android:name=".ChallengeSabtuActivity"
             android:exported="false" />
         <activity
-            android:name=".TestingSlicingActivity"
+            android:name=".LinearLayoutFigmaActivity"
             android:exported="false" />
         <activity
             android:name=".LinearLayoutActivity"

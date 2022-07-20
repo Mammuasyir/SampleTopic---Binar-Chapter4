@@ -3,9 +3,9 @@ package com.humam.chapter4
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class TestingSlicingActivity : AppCompatActivity() {
+class LinearLayoutFigmaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_testing_slicing)
+        setContentView(R.layout.activity_linear_layout_figma)
     }
 }
