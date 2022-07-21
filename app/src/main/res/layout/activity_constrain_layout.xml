@@ -242,8 +242,15 @@
         app:layout_constraintStart_toStartOf="@id/ivIcon7"
         app:layout_constraintTop_toBottomOf="@id/ivIcon7"/>
 
-
-
+    <TextView
+        android:id="@+id/tvAkhir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pilihan Menu"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvBawah1"
+        android:layout_marginTop="50dp"/>
 
 
 

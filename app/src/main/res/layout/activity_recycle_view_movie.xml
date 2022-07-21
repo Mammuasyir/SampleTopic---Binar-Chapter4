@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChallengeSabtuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="@string/coming_soon"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/thor"
+                        android:scaleType="fitXY"
+                        android:paddingEnd="9dp"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="12dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/gray"
+                        android:gravity="center"
+                        android:text="22 Jan 2022"
+                        android:textSize="9dp"
+                        android:textColor="@color/black"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/thor"
+                        android:scaleType="fitXY"
+                        android:paddingEnd="9dp"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="12dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/gray"
+                        android:gravity="center"
+                        android:text="22 Jan 2022"
+                        android:textSize="9dp"
+                        android:textColor="@color/black"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/thor"
+                        android:scaleType="fitXY"
+                        android:paddingEnd="9dp"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="12dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/gray"
+                        android:gravity="center"
+                        android:text="22 Jan 2022"
+                        android:textSize="9dp"
+                        android:textColor="@color/black"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/thor"
+                        android:scaleType="fitXY"
+                        android:paddingEnd="9dp"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="12dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/gray"
+                        android:gravity="center"
+                        android:text="22 Jan 2022"
+                        android:textSize="9dp"
+                        android:textColor="@color/black"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/thor"
+                        android:scaleType="fitXY"
+                        android:paddingEnd="9dp"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="12dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/gray"
+                        android:gravity="center"
+                        android:text="22 Jan 2022"
+                        android:textSize="9dp"
+                        android:textColor="@color/black"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="@string/now"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMovies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:itemCount="10"
+            android:nestedScrollingEnabled="false"
+            tools:listitem="@layout/item_list_movie"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
