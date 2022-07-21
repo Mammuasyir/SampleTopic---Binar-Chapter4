@@ -71,10 +71,9 @@
         android:id="@+id/ivIcon1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="40dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/ic_electronik"
-        app:layout_constraintEnd_toStartOf="@+id/ivIcon3"
+        app:layout_constraintEnd_toStartOf="@+id/ivIcon2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@id/ivIcon"
         app:layout_constraintTop_toBottomOf="@id/tv_menu" />
@@ -92,6 +91,156 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/ivIcon1"
         app:layout_constraintTop_toBottomOf="@id/ivIcon1"/>
+
+    <ImageView
+        android:id="@+id/ivIcon2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_vegetable"
+        app:layout_constraintEnd_toStartOf="@+id/ivIcon3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/ivIcon1"
+        app:layout_constraintTop_toBottomOf="@id/tv_menu" />
+
+    <TextView
+        android:id="@+id/tvMenuSayuran"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Sayuran"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/ivIcon2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/ivIcon2"
+        app:layout_constraintTop_toBottomOf="@id/ivIcon2"/>
+
+    <ImageView
+        android:id="@+id/ivIcon3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_pulsa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/ivIcon2"
+        app:layout_constraintTop_toBottomOf="@id/tv_menu" />
+
+    <TextView
+        android:id="@+id/tvMenuPulsa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Pulsa"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/ivIcon3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/ivIcon3"
+        app:layout_constraintTop_toBottomOf="@id/ivIcon3"/>
+
+    <ImageView
+        android:id="@+id/ivIcon4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/ic_book"
+        app:layout_constraintEnd_toStartOf="@+id/ivIcon5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivIcon" />
+
+    <TextView
+        android:id="@+id/tvBawah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Bawah"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/ivIcon4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/ivIcon4"
+        app:layout_constraintTop_toBottomOf="@id/ivIcon4"/>
+
+    <ImageView
+        android:id="@+id/ivIcon5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/ic_electronik"
+        app:layout_constraintEnd_toStartOf="@+id/ivIcon6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/ivIcon4"
+        app:layout_constraintTop_toBottomOf="@id/ivIcon" />
+
+    <TextView
+        android:id="@+id/tvBawah1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Bawah1"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/ivIcon5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/ivIcon5"
+        app:layout_constraintTop_toBottomOf="@id/ivIcon5"/>
+
+    <ImageView
+        android:id="@+id/ivIcon6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/ic_vegetable"
+        app:layout_constraintEnd_toStartOf="@+id/ivIcon7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/ivIcon5"
+        app:layout_constraintTop_toBottomOf="@id/ivIcon" />
+
+    <TextView
+        android:id="@+id/tvBawah2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Bawah 2"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/ivIcon6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/ivIcon6"
+        app:layout_constraintTop_toBottomOf="@id/ivIcon6"/>
+
+    <ImageView
+        android:id="@+id/ivIcon7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/ic_pulsa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/ivIcon6"
+        app:layout_constraintTop_toBottomOf="@id/ivIcon" />
+
+    <TextView
+        android:id="@+id/tvBawah3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Bawah3"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/ivIcon7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/ivIcon7"
+        app:layout_constraintTop_toBottomOf="@id/ivIcon7"/>
 
 
 
