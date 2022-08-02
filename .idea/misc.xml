@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/BinarChapter4/app/src/main/res/layout/activity_challenge_sabtu.xml" value="0.1" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/BinarChapter4/app/src/main/res/layout/activity_constrain_layout.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/BinarChapter4/app/src/main/res/layout/activity_linear_layout.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/BinarChapter4/app/src/main/res/layout/activity_linear_layout_figma.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/BinarChapter4/app/src/main/res/layout/activity_recycle_view.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/BinarChapter4/app/src/main/res/layout/activity_recycle_view_movie.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/BinarChapter4/app/src/main/res/layout/activity_scroll_view.xml" value="0.1" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/BinarChapter4/app/src/main/res/layout/item_list_movie.xml" value="0.16197916666666667" />
         <entry key="..\:/Users/Pro/AndroidStudioProjects/SampleTopic1/app/src/main/res/layout/activity_challenge_sabtu.xml" value="0.18313689936536717" />
         <entry key="..\:/Users/Pro/AndroidStudioProjects/SampleTopic1/app/src/main/res/layout/activity_constrain_layout.xml" value="0.18" />
         <entry key="..\:/Users/Pro/AndroidStudioProjects/SampleTopic1/app/src/main/res/layout/activity_constrain_layout2.xml" value="0.14166666666666666" />
